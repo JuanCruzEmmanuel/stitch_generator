@@ -110,11 +110,11 @@ stitches = stitch_effect_meander(path)
 Example for using a custom stitch effect
 
 ```python
-from stitch_generator.stitch_effects.path_effects.stitch_effects import satin
-from stitch_generator.shapes import line
-from stitch_generator.framework import Path
-from stitch_generator.functions import constant
-from stitch_generator.subdivision import regular
+from stitch_generator.stitch_effects.path_effects.satin import satin
+from stitch_generator.shapes.line import line
+from stitch_generator.framework.path import Path
+from stitch_generator.functions.functions_1d import constant
+from stitch_generator.subdivision.subdivide_by_length import regular
 
 # create a path
 path = Path(
@@ -139,10 +139,10 @@ Example for using a decorative stitch from the Stitch Generator collection
 
 ```python
 from stitch_generator.collection.stitch_effects.decorative_stitches import arrow_chain
-from stitch_generator.shapes import line
-from stitch_generator.framework import Path
-from stitch_generator.functions import constant
-from stitch_generator.subdivision import regular
+from stitch_generator.shapes.line import line
+from stitch_generator.framework.path import Path
+from stitch_generator.functions.functions_1d import constant
+from stitch_generator.subdivision.subdivide_by_length import regular
 
 # create a path
 path = Path(
